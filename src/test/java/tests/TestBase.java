@@ -11,6 +11,7 @@ public class TestBase {
     @BeforeAll
     static void setup(){
         Configuration.browserSize = "2560x1440";
+        Configuration.browser = System.getProperty("browser", "chrome");
         addListener("AllureSelenide", new AllureSelenide());
     }
 }

@@ -11,7 +11,7 @@ public class YandexTests extends TestBase {
 
     @Test
     void selenideSearchTest() {
-        // Открыть google
+        // Открыть yandex
         open("https://yandex.by/");
 
         // Ввести Selenide в поиск
